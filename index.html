@@ -1,82 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lima Limonada | Contatos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d04cb252.js" crossorigin="anonymous"></script>
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom, #fffdf9, #f7f3f0);
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom right, #f4f4f4, #dcdcdc);
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      padding: 40px 20px;
-      color: #222;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container {
+      background: white;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+      padding: 3rem 2rem;
+      text-align: center;
+      max-width: 480px;
+      width: 100%;
     }
     h1 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin: 0;
-      color: #000;
+      font-size: 2rem;
+      font-weight: 800;
+      color: #111;
     }
-    h2 {
-      font-size: 1.2rem;
-      font-weight: 400;
-      margin: 5px 0 30px;
-      color: #555;
+    p.sub {
+      margin-top: 0.25rem;
+      font-size: 0.95rem;
+      color: #777;
+      margin-bottom: 2rem;
     }
-    .link-container {
-      width: 100%;
-      max-width: 400px;
+    a.btn {
       display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    a {
-      text-decoration: none;
-      background-color: #000;
-      color: #fff;
-      padding: 14px 20px;
+      align-items: center;
+      gap: 12px;
+      justify-content: center;
+      background: #111;
+      color: white;
+      padding: 1rem;
       border-radius: 12px;
-      text-align: center;
+      margin-bottom: 1rem;
+      text-decoration: none;
       font-size: 1rem;
-      transition: all 0.3s ease;
+      font-weight: 600;
+      transition: transform 0.2s ease;
     }
-    a:hover {
-      background-color: #444;
+    a.btn:hover {
+      transform: scale(1.03);
+      background: #333;
     }
-    .whats {
-      background-color: #25D366;
-    }
-    .whats:hover {
-      background-color: #1ebe5d;
+    .icon {
+      font-size: 1.3rem;
     }
   </style>
 </head>
 <body>
-  <h1>LIMA LIMONADA</h1>
-  <h2>CONTATOS</h2>
+  <div class="container">
+    <h1>LIMA LIMONADA</h1>
+    <p class="sub">CONTATOS</p>
 
-  <div class="link-container">
-    <a class="whats" href="https://wa.me/5535988175857" target="_blank">
-      Gostaria de um orçamento para seu ensaio incrível? Fale comigo no WhatsApp 💬
+    <a class="btn" href="https://wa.me/5535988175857" target="_blank">
+      <i class="fab fa-whatsapp icon"></i>
+      Gostaria de um orçamento para seu ensaio incrível?
     </a>
-    <a href="https://www.instagram.com/limalimonada/" target="_blank">
-      Instagram 1 - @limalimonada
+
+    <a class="btn" href="https://www.instagram.com/limalimonada/" target="_blank">
+      <i class="fab fa-instagram icon"></i>
+      Instagram 1
     </a>
-    <a href="https://www.instagram.com/olimalimonada/" target="_blank">
-      Instagram 2 - @olimalimonada
+
+    <a class="btn" href="https://www.instagram.com/olimalimonada/" target="_blank">
+      <i class="fab fa-instagram icon"></i>
+      Instagram 2
     </a>
-    <a href="https://www.youtube.com/@limalimonada_" target="_blank">
-      Se inscreva no YouTube 📹
+
+    <a class="btn" href="https://www.youtube.com/@limalimonada_" target="_blank">
+      <i class="fab fa-youtube icon"></i>
+      Se inscreva no YouTube
     </a>
-    <a href="https://www.facebook.com/ThallesLimaPhotos/" target="_blank">
-      Facebook - Todo dia um vídeo novo 🎥
+
+    <a class="btn" href="https://www.facebook.com/ThallesLimaPhotos/" target="_blank">
+      <i class="fab fa-facebook icon"></i>
+      Facebook – Todo dia um vídeo novo
     </a>
-    <a href="https://www.kwai.com/@Limalimonada" target="_blank">
-      Estamos também no Kwai 🎬
+
+    <a class="btn" href="https://www.kwai.com/@Limalimonada" target="_blank">
+      <i class="fas fa-camera-retro icon"></i>
+      Também estamos no Kwai
     </a>
   </div>
 </body>
