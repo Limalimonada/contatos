@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lima Limonada | Contatos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #fffdf9, #f7f3f0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      color: #222;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 0;
+      color: #000;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin: 5px 0 30px;
+      color: #555;
+    }
+    .link-container {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    a {
+      text-decoration: none;
+      background-color: #000;
+      color: #fff;
+      padding: 14px 20px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      background-color: #444;
+    }
+    .whats {
+      background-color: #25D366;
+    }
+    .whats:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+  <h1>LIMA LIMONADA</h1>
+  <h2>CONTATOS</h2>
+
+  <div class="link-container">
+    <a class="whats" href="https://wa.me/5535988175857" target="_blank">
+      Gostaria de um orçamento para seu ensaio incrível? Fale comigo no WhatsApp 💬
+    </a>
+    <a href="https://www.instagram.com/limalimonada/" target="_blank">
+      Instagram 1 - @limalimonada
+    </a>
+    <a href="https://www.instagram.com/olimalimonada/" target="_blank">
+      Instagram 2 - @olimalimonada
+    </a>
+    <a href="https://www.youtube.com/@limalimonada_" target="_blank">
+      Se inscreva no YouTube 📹
+    </a>
+    <a href="https://www.facebook.com/ThallesLimaPhotos/" target="_blank">
+      Facebook - Todo dia um vídeo novo 🎥
+    </a>
+    <a href="https://www.kwai.com/@Limalimonada" target="_blank">
+      Estamos também no Kwai 🎬
+    </a>
+  </div>
+</body>
+</html>
